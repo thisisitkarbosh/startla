@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Start Page</title>
+    <style>
+        body {
+            background-color: #224422; /* Dark green background */
+            color: #cceecc; /* Light green text */
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .main-container {
+            display: flex;
+            width: 80%;
+            max-width: 1200px;
+            border: 3px solid #ccddcc; /* Light green border */
+        }
+        .window {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .title-bar {
+            background-color: #446644; /* Medium green */
+            padding: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .content {
+            background-color: #335533; /* Darker green */
+            padding: 10px;
+        }
+        .content a, .content a:visited, .content a:active {
+            color: #cceecc; /* Light green text */
+            text-decoration: none;
+        }
+        .content a:hover {
+            color: #ffffff; /* White text on hover */
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #335533; /* Darker green */
+            padding: 20px;
+            color: #ddeedd; /* Very light green */
+            border-left: 3px solid #ccddcc; /* Light green border */
+            text-align: center;
+        }
+        .profile-pic {
+            background: url(https://github.com/thisisitkarbosh/startla/blob/main/frankie.PNG?raw=true) no-repeat center center;
+            background-size: cover;
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+        }
+        .search-bar {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .search-bar input {
+            width: 300px;
+            padding: 5px;
+            margin-left: 5px;
+            background-color: #446644; /* Medium green */
+            border: 2px solid #ccddcc; /* Light green border */
+            color: #cceecc; /* Light green text */
+        }
+        /* ...additional styles... */
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="window">
+            <div class="title-bar">hurry up and buy</div>
+            <div class="content">
+                <a href="https://www.youtube.com" target="_blank">YouTube</a><br>
+                <a href="https://www.sportsbet.com.au" target="_blank">Sportsbet</a><br>
+                <a href="https://www.reddit.com" target="_blank">cesspool</a><br>
+                <a href="https://www.lolesports.com" target="_blank">LoleSports</a><br>
+                <a href="https://www.twitch.tv" target="_blank">click for egirls</a><br>
+                <a href="https://chat.openai.com/" target="_blank">robot friend</a><br>
+                <a href="https://open.spotify.com/" target="_blank">musika</a><br>
+                <a href="https://www.netflix.com" target="_blank">netflix</a><br>
+                <form class="search-bar" action="https://www.google.com/search" method="get">
+                    <label for="run-search">.morkus5:</label>
+                    <input type="text" id="run-search" name="q" autocomplete="off">
+                </form>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="profile-pic"></div>
+            <div class="user-info">
+                <p> .morkus5</p>
+                <p>: gone fishing</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
